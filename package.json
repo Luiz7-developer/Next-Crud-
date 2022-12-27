@@ -1,6 +1,7 @@
 {
   "name": "next-crud",
   "version": "0.1.0",
+  "homepage": "github-pages/",
   "private": true,
   "scripts": {
     "dev": "next dev",
