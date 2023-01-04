@@ -28,7 +28,7 @@ export default function Tabela(props: TabelaProps) {
       return (
         <tr
           key={cliente.id}
-          className={`${indice % 2 === 0 ? "bg-blue-100" : "bg-blue-200"}`}
+          className={`${indice % 2 === 0 ? "bg-blue-100" : "bg-blue-200"}  `}
         >
           <td className="text-left p-5">{cliente.id}</td>
           <td className="text-left p-5">{cliente.nome}</td>
@@ -42,7 +42,7 @@ export default function Tabela(props: TabelaProps) {
 
   function RenderizarAcoes(cliente: Cliente) {
     return (
-      <td className="flex justify-center">
+      <td className="flex justify-center ">
         {props.clienteSelecionado ? (
           <button
             onClick={() => props.clienteSelecionado?.(cliente)}
