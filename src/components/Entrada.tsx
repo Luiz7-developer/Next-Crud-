@@ -17,7 +17,7 @@ export default function Entrada(props: EntradaProps) {
         readOnly={props.somenteLeitura}
         onChange={(evento) => props.valorMudou?.(evento.target.value)}
         className={`
-        bg-gray-50
+        bg-gray-45
         border border-purple-500 rounded-lg
         focus:outline-none
         px-4 py-2       
