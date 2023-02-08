@@ -13,4 +13,3 @@ const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 const dataBase = getFirestore(app);
 
 export { dataBase };
-
